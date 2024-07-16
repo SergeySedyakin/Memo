@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="MEMO"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:textSize="92dp"
+        android:layout_marginTop="12.5dp"
+        android:textColor="#ff004d40" />
+    <Button
+        android:text="Новая игра"
+        android:layout_width="237.5dp"
+        android:layout_height="55.0dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/btnNewGameSixteen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="152.5dp"
+        android:textSize="56.0px" />
+
+    <Button
+        android:text="Правила игры"
+        android:layout_width="237.5dp"
+        android:layout_height="55.0dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:textSize="48.0px"
+        android:id="@+id/btnRules"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="231.0dp" />
+</RelativeLayout>
